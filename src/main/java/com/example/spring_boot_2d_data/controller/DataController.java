@@ -15,4 +15,9 @@ public class DataController {
     public String testResponse(){
         return dataService.testResponse();
     }
+
+    @GetMapping("/api/data/kimje")
+    public String testKimje(){
+        return dataService.testKimje();
+    }
 }
