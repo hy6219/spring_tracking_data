@@ -82,6 +82,7 @@ public class ApiResponse {
     static class Feature {
         private String type;
         private Geometry geometry;
+        private Properties properties;
         private String id;
     }
 
@@ -90,7 +91,6 @@ public class ApiResponse {
     static class Geometry {
         private String type;
         private List<List<List<Double>>> coordinates;
-        private Properties properties;
     }
 
 
